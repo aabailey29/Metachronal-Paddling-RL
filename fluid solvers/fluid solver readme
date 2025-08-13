@@ -1,1 +1,13 @@
+Directory with fluid solvers
 
+paddler2limb.m - computes translational velocity of a paddler with 2 sets of limbs given a prescribed discrete movement
+
+paddler3limb.m - computes translational velocity of a paddler with 3 sets of limbs given a prescribed discrete movement
+
+paddler4limb.m - computes translational velocity of a paddler with 4 sets of limbs given a prescribed discrete movement
+
+form_reg_stokes_matrixXX.m - forms the regularized Stokeslet matrix in 2D given sets of points at which the velocities and forces 
+to be evaluated
+
+form_reg_stokes_matrix_3D.m - forms the regularized Stokeslet matrix in 3D given sets of points at which the velocities and forces 
+to be evaluated
