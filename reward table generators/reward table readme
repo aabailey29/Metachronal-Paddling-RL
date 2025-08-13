@@ -1,1 +1,13 @@
+Directory for MATLAB scripts that generate reward tables for Q-learning
 
+paddler2limb_reward.m - runs through all possible state/action pairs for 2-paddler swimmer and calls the 
+paddler2limb.m fluid solver to calculate translational velocity. 
+Integrates the velocity to get net displacement and fills reward table with these values.
+
+paddler3limb_reward.m - runs through all possible state/action pairs for 3-paddler swimmer and calls the 
+paddler3limb.m fluid solver to calculate translational velocity. 
+Integrates the velocity to get net displacement and fills reward table with these values.
+
+paddler4limb_reward.m - runs through all possible state/action pairs for 3-paddler swimmer and calls the 
+paddler4limb.m fluid solver to calculate translational velocity. 
+Integrates the velocity to get net displacement and fills reward table with these values.
